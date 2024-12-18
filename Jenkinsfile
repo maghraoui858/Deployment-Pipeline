@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials') // DockerHub credentials ID
-        DOCKER_IMAGE = 'hamzalaabidi/nestjs-web-app'
-        GIT_REPO = 'https://github.com/laabidihamza/Pipeline-of-Deployment-of-docker-container.git'
+        DOCKER_IMAGE = 'nourmaghrawi/nestjs-web-app'
+        GIT_REPO = 'https://github.com/maghraoui858/Pipeline-of-Deployment-of-docker-container.git'
         IMAGE_TAG = 'v1'
     }
 
